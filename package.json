@@ -1,0 +1,24 @@
+{
+  "name": "github2",
+  "version": "1.0.0",
+  "description": "GIT profile displayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Aqib Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
